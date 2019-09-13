@@ -145,6 +145,10 @@ namespace FullScreenTest
                     }
                     break;
 
+                case WM_LBUTTONDOWN:
+                    SetFocus(Handle);
+                    break;
+
                 case WM_CONTEXTMENU:
                     var pt = PointFromLParam(lParam);
                     if (pt.X < 0)
