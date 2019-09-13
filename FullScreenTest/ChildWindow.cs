@@ -138,7 +138,7 @@ namespace FullScreenTest
                         InvalidateRect(_hWnd);
                     }
 
-                    // Ctrl+G toggle OpenGL 
+                    // Ctrl+M display a message box
                     if (wParam.ToInt32() == 'M' && GetKeyState(VK_CONTROL) < 0)
                     {
                         MessageBox(Handle, "Hello World", "Full Screen Test", MB_OK | MB_ICONINFORMATION);
