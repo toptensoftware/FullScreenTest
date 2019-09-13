@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net471</TargetFramework>
+    <ApplicationManifest>app1.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OpenGL.NET\OpenGL.NET.csproj" />
+    <ProjectReference Include="..\Topten.WindowsAPI\Topten.WindowsAPI.csproj" />
+  </ItemGroup>
+
+</Project>

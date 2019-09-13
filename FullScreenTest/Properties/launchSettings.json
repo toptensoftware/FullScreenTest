@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FullScreenTest": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
